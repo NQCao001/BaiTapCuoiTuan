@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="">
+    <p id="ten"></p>
+</a>
+<script>
+    let link=prompt("Nhập link fb")
+    let ten=prompt("Nhập tên")
+    let al=document.getElementsByTagName("a")
+    al[0].href=link
+    document.getElementById("ten").innerHTML=ten
+</script>
+</body>
+</html>
